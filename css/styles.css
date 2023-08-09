@@ -67,13 +67,14 @@ article.Intro,article.Info, article.cardinfo,article.statement
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-figure.war-img2
+
+.war-img2
 {
     text-align: center;
-    padding: 20px;
+    margin-bottom: 20px 0;
+     padding: 20px;
     background-color: #f9f9f9;
-    margin-bottom: 20px;
-    box-shadow: 0 10px 5px rgba(0, 0, 0, 0.1);
+     box-shadow: 0 10px 5px rgba(0, 0, 0, 0.1);
 }
 
 
@@ -234,10 +235,6 @@ textarea
         height: auto;
     }
 
-    .war-img2 img {
-        width: 50%;
-;
-    }
 
     .war-video {
         position: relative;
@@ -255,6 +252,18 @@ textarea
     }
 
 }
+
+@media screen and (max-width: 1161px)
+{
+.war-img2 img {
+    width: 100%;
+    height: auto;
+
+}
+
+}
+
+
 
 #statement {
     background-color: #f9f9f9;
