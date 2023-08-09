@@ -93,41 +93,4 @@ button.addEventListener('click', function() {
 
 
 
-/*
-// Attach event listener to "Create" button
-document.getElementById('create-button').addEventListener('click', newReview);
-
-
-// Function to add a new review
-function newReview() {
-    const addName = document.getElementById('name').value;
-    const addDate = document.getElementById('date').value;
-    const addRating = parseInt(document.getElementById('rating').value);
-    const addReview = document.getElementById('review-text').value;
-
-    const newReviewObject = {
-        name: addName,
-        date: addDate,
-        rating: addRating,
-        review: addReview
-    };
-    
-    // add a new object
-    reviewData.push(newReviewObject);
-
-    // Clear the id
-    displayRowCards.innerHTML = " "
-
-     // Display the new card immediately after adding
-     createReviewCard(reviewData);
-
-     // Clear form inputs
-     document.getElementById('name').value = '';
-     document.getElementById('date').value = '';
-     document.getElementById('rating').value = '';
-     document.getElementById('review-text').value = '';
-
-}
-
-*/
 
