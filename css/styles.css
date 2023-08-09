@@ -225,7 +225,8 @@ textarea
     }
 
     #email {
-        width: 80%;
+        width: 100%;
+        font-size: 11px;
     }
 
     .war-img img {
@@ -234,8 +235,8 @@ textarea
     }
 
     .war-img2 img {
-        width: 100%;
-        height: auto;
+        width: 50%;
+;
     }
 
     .war-video {
