@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="review" content="review">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="Supachai Ruknuy">
+    <title>Review</title>
+       <!--Add style-->
+       <link rel="stylesheet" href="./css/styles.css" type="text/css">
+
+       <!--Add google font-->
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+       <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav class="menu">
+          <div class="logo"><img width="100" height="100"  src="https://cdn-icons-png.flaticon.com/512/5524/5524802.png" alt="Site Logo"/></div>
+          <a href="index.html">Overview</a>
+            <a href="info.html">Play</a>
+            <a href="review.html">Review</a>
+            <a href="about.html">About</a>
+        </nav>
+    </header>
+
+    <main>
+      <article class="Info">
+        <h2 id="review">Review</h2>
+
+        <!-- Display the review cards here -->
+        <div class="row-cards"></div>
+
+        <!-- New review form -->
+        <div class="new-review">
+            <form id="new-review-form">
+                <h2>Write a review</h2>
+                <label for="name">Name*:</label>
+                <input type="text" id="name" required><br>
+
+                <label for="date">Date*:</label>
+                <input type="date" id="date" required><br>
+
+                <label for="rating">Rating*:</label>
+                <input type="number" id="rating-input" min="1" max="5" required><br>
+
+                <label for="review-text">Review*:</label><br><br>
+                <textarea id="review-text" required style="font-size:13pt;"></textarea><br>
+
+                <!-- Create button -->
+                <input id="create-button" type="submit" value="Create">
+            </form>
+        </div>
+      </article>
+    </main>
+
+    <!-- Main data JavaScript file -->
+    <script src="./js/data.js"></script>
+    <script src="./js/scripts.js"></script>
+
+    <footer>
+        <div id="copyright">
+            <p>&copy; 2023 by Supachai Ruknuy</p>
+        </div>
+    </footer>
+</body>
+</html>
