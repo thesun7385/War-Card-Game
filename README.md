@@ -1,4 +1,4 @@
 WEB222-Final-Project
 
-Link go to website: https://github.com/supachai2538/War-Game-Club
+Link go to website: https://incredible-melba-d83e75.netlify.app/
 
